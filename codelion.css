@@ -1,11 +1,18 @@
-p {
-    /* 글씨 크기 조절 */
-    font-size: 30px;
+footer{
+    text-align: center;
+    /* 색을 code로도 표현 가능 */
+    background-color: #121212;
+    color: #919191;
+    font-size: 12px;
 }
 
-.big-font {
-    font-size: 40px;
-}
-.small-font {
-    font-size: 15px;
+.mainbox {
+    /* border 속성 : 두께 방식 색깔 */
+    border: 4px inset #6f6f6f;
+    /* 박스 너비 조절 */
+    width: 610px;
+    text-align: center;
+    /* 박스 가운데 정렬 */
+    margin-left: auto;
+    margin-right: auto;
 }
