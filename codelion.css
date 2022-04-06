@@ -1,0 +1,9 @@
+footer{
+    /* text 가운데 정렬 */
+    text-align: center;
+    /* 배경 색 변경 */
+    background-color: black;
+    /* 글자 색 변경 */
+    color: white;
+
+}
