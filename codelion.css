@@ -11,8 +11,11 @@ footer{
     border: 4px inset #6f6f6f;
     /* 박스 너비 조절 */
     width: 610px;
-    text-align: center;
+    text-align: right;
     /* 박스 가운데 정렬 */
     margin-left: auto;
     margin-right: auto;
+    /* padding값 조절 */
+    padding: 30px;
+    margin: 30px;
 }
