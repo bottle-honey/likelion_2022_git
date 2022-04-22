@@ -39,6 +39,42 @@ footer{
     padding: 30px;
 }
 
+section{
+    margin-bottom: 24px;
+}
+
+.name-text{
+    font-size: 16px;
+    color: #7C7C7C;
+    font-weight: bold;
+}
+
+.about-me-text{
+    font-size: 10px;
+    /* 줄간격 */
+    line-height: 16px;
+}
+
+.title-text{
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    /* 붕붕 뜨다..? */
+    float: left;
+}
+
+.year-text{
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+
+
+
+
+
 .mainbox {
     /* border 속성 : 두께 방식 색깔 */
     border: 4px inset #6f6f6f;
