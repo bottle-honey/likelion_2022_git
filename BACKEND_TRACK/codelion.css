@@ -85,7 +85,18 @@ section{
     padding-left: 16px;
 }
 
+.title-box{
+    text-align: right;
+}
 
+.sns-img{
+    width: 12px;
+    height: 12px;
+}
+
+.sns-wrap{
+    text-align: right;
+}
 
 .mainbox {
     /* border 속성 : 두께 방식 색깔 */
