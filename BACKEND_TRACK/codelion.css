@@ -1,9 +1,16 @@
+.name-text{
+    font-size:17px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
 footer{
     text-align: center;
     /* 색을 code로도 표현 가능 */
     background-color: #121212;
     color: #919191;
     font-size: 12px;
+    padding: 30px;
 }
 
 .mainbox {
@@ -18,4 +25,7 @@ footer{
     /* padding값 조절 */
     padding: 30px;
     margin: 30px;
+    /* 그림자 */
+    /* x축, y축, 블러, 퍼짐정도 */
+    box-shadow: 0 1px 20px 0 rgba(250, 0, 200,1);
 }
