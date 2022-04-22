@@ -13,11 +13,22 @@ body,h1,h2{
 body{
     min-width: fit-content;
 }
-.name-text{
-    font-size:17px;
-    color: #7c7c7c;
+
+h1{
+    font-size: 36px;
     font-weight: bold;
+    font-style: italic;
 }
+
+h2{
+    font-size:20px;
+    font-weight: lighter;
+    color: #282828;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 16px;
+    padding-bottom: 5px;
+}
+
 
 footer{
     text-align: center;
@@ -33,7 +44,7 @@ footer{
     border: 4px inset #6f6f6f;
     /* 박스 너비 조절 */
     width: 610px;
-    text-align: right;
+
     /* 박스 가운데 정렬 */
     margin-left: auto;
     margin-right: auto;
