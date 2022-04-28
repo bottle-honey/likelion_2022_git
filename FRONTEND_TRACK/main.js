@@ -49,3 +49,40 @@
 
 // let num = null;
 // console.log(num);
+
+//bool 자료형
+// let bool1 = 5 < 7;
+// console.log(bool1);
+
+// let bool2 = 7 > 10;
+// console.log(bool2);
+
+//배열
+
+// let arr = [10,"a",true,null];
+// console.log(arr[1]);
+
+//객체
+// let obj = {a:1};
+// obj.b = 2;
+// console.log(obj.a);
+// console.log(obj);
+
+//함수
+
+// function printBanana(){
+//     console.log("banana");
+// };
+// printBanana();
+
+// function print(a){
+//     console.log(a);
+// };
+// print("1");
+
+//return 키워드
+// const m = function multiple(a,b){
+//     return a*b;
+// };
+// const result = m(3,5);
+// console.log(result);

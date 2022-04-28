@@ -1,3 +1,4 @@
+/* google font 적용 */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
 
 /* 문서 전체 적용 */
@@ -103,7 +104,6 @@ section{
     border: 4px inset #6f6f6f;
     /* 박스 너비 조절 */
     width: 610px;
-
     /* 박스 가운데 정렬 */
     margin-left: auto;
     margin-right: auto;
