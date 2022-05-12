@@ -1,0 +1,31 @@
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h2 id="hello">안녕하세요</h2>
+    <div class="alert-box" id="alert">Alert 박스</div>
+    <!-- <button onclick="document.getElementById('alert').style.display='block';">버튼</button> -->
+    <!-- <button onclick="openAlert();">버튼</button>
+    <button onclick="document.getElementById('alert').style.display='none';">닫기</button> -->
+    <button onclick="openAlert('아이디')">버튼1</button>
+    <button onclick="openAlert('패스워드')">버튼2</button>
+    <script>
+        /*document.getElementById('hello').innerText = '안녕';
+        document.getElementById('hello').style.fontSize = '30px';
+        console.log(document.getElementsById('alert'));
+        console.log(document.getElementsByClassName('alert-box')); */
+        function openAlert(){
+            document.getElementById('alert').style.display='block';
+        }
+        function openAlert(text){
+            document.getElementById('alert').innerHTML = text;
+            document.getElementById('alert').style.display='block';
+        }
+
+    
+    </script>
+</body>
+</html>
